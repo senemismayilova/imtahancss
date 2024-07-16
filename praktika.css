@@ -1,0 +1,48 @@
+*{
+
+margin: 0;
+padding: 0;
+}
+
+.box{
+width: 33.33%;
+position: relative;
+
+
+}
+.overlay{
+
+    position: absolute;
+    top:0;
+    opacity: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.img{
+    width:100% ;
+    img{
+        width: 100%;
+height:100%;
+    }
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.texbox{
+    color: #fff;
+}
+.box:hover  .overlay{
+
+    
+background-color: rgba(251, 120, 12, 0.892);
+opacity: 1;
+}
